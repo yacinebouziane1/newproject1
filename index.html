@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/88e0feb6f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p> Salesforce Administrator</p>
+            <h1>Hi, I'm<span> Yassine</span><br> Bouziane</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------Abou---------- -->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="about.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="subt-title">About Me</h1>
+            <p>I am a highly motivated and dedicated individual with a strong passion for continuous learning and personal growth. Currently pursuing a Bachelor's degree in English Linguistics, I have developed a deep understanding of language, communication, and critical thinking. Alongside my studies, I hold a University Diploma (DEUG) in English Studies, enhancing my knowledge in linguistics, literature, and cultural studies. With excellent communication skills and a knack for fostering meaningful relationships, I thrive in collaborative environments. Additionally, I have completed The Fundamentals of Digital Marketing course, gaining insights into online marketing strategies. Currently enrolled in a Salesforce Administrator program, I am expanding my expertise in customer relationship management and cloud-based technologies. Leveraging my linguistic background, strong communication skills, and emerging technical proficiency, I am also passionate about UI/UX Design.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+                <li><span>Salesforce Administrator</span><br>Project management </li>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br>Web App Development</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+                <li><span>2023 - Curren</span><br>UI/UX design Training at ET Institue </li>
+                <li><span>2021</span><br>Digital Marketing Certificate from Google</li>
+                <li><span>In progress at ALX Morocco</span><br>Salesforce Administration</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+                <li><span>2020 </span><br>Baccalaureate, Sciences Economiques et Gestion </li>
+                <li><span>2022</span><br>University Diploma (DEUG), English Studies</li>
+                <li><span>2023</span><br>BA, English Linguistics/li>
+            </ul>
+          </div>
+        </div>
+    </div>
+   <div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subt-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting captivating digital experiences through a fusion of creativity and technical prowess in web design</p>
+                <a href="#">Learn More </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Elevating digital engagement through intuitive UI/UX design for impactful user experiences</p>
+                <a href="#">Learn More </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Digital Marketing</h2>
+                <p>Navigating the digital landscape, I harness data-driven insights to create targeted campaigns that captivate audiences and drive results.</p>
+                <a href="#">Learn More </a>
+        </div>
+    </div>
+</div>
+</div>
+<!-- --------Portfolio ------------ -->
+<div id="portfolio">
+   <div class="container">
+    <h1 class="subt-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="work-1.png" >
+            <div class="layer">
+                <h3>ALX GROUP PROJECT</h3>
+                <p>The "Doctor Booking" application </p>
+            <a href="https://docs.google.com/presentation/d/1Gcm5lvWPzBbxjqUIQVZ6PDlD4-IPr98p5MgABOSfPP4/edit#slide=id.gc6f80d1ff_0_5"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            
+        </div>
+        <div class="work">
+            <img src="work-2.png" >
+            <div class="layer">
+                <h3>THE YOUTUBE VIDEO </h3>
+                <p> WATCH THE VIDEO ABOUT THE PROJECT HERE </p>
+            <a href="https://www.youtube.com/watch?v=vAMijLp3ZtA"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work-3.png" >
+            <div class="layer">
+                <h3>ELEVATOR PITCH Video</h3>
+                <p>ELEVATOR PITCH VIDEO FOR MIL15</p>
+            <a href="https://youtube.com/shorts/C_sJ_xEGfBI?feature=share"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+   </div>
+</div>
+<!-- ----------Contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>yassine.bouziane1proton@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0682740045</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ysn.bzn_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/yassine-bouziane-50b688187/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/bzn1ylo"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/yacinebouziane1"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="https://docs.google.com/document/d/1UC9ubXiflvcx6grFLYkAJbZx2nMbYVJ9Mi4RVEp98F0/edit#heading=h.5rf9wr4r3no2" download class="btn btn2"> My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Yassine Bouziane. Made With <i class="fa-solid fa-heart"></i> </p>
+            </div>
+            
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents ){
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>
+
+<script>
+
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
